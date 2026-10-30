@@ -2,14 +2,6 @@ import cvFile from '../assets/Suci Ramadhani Lubis - CV.pdf';
 
 const CV_FILENAME = 'Suci Ramadhani Lubis - CV.pdf';
 
-const CONTENTS = [
-  { label: 'Education', value: 'Informatics Engineering, Institut Teknologi Padang' },
-  { label: 'Training', value: 'DBS Foundation Coding Camp' },
-  { label: 'Projects', value: 'Toko Khairul Audio, Awakey' },
-  { label: 'Skills', value: 'React, Laravel, MySQL, Python, JavaScript' },
-  { label: 'Languages', value: 'Indonesian, English' },
-];
-
 function ArrowUpRight() {
   return (
     <svg
@@ -117,46 +109,23 @@ export default function CV() {
             </a>
           </div>
 
-          {/* What's inside */}
-          <div className="rounded-2xl border border-[#EEE6D8] bg-white/50 p-5 dark:border-[#2C241B] dark:bg-[#211B16]/60">
-            <h3 className="mb-4 border-b border-[#EEE6D8] pb-2.5 text-xs font-semibold text-[#241F19] dark:border-[#2C241B] dark:text-[#F1E9DC]">
-              What's inside
-            </h3>
-
-            <ul className="space-y-4">
-              {CONTENTS.map((item) => (
-                <li key={item.label} className="flex gap-3">
-                  <span className="pt-0.5 text-[10px] text-[#BF5B37] dark:text-[#E08856]">✳</span>
-                  <div>
-                    <p className="font-mono text-[10px] text-[#9C9184] dark:text-[#8D7F6E]">
-                      {item.label}
-                    </p>
-                    <p className="mt-1 text-xs leading-5 text-[#5F5041] dark:text-[#C8B8A5]">
-                      {item.value}
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Availability + contact */}
           <div className="rounded-2xl border border-[#E8D8C5] bg-[#F6EFE5] p-5 dark:border-[#493829] dark:bg-[#211B16]">
             <p className="flex items-center gap-2 font-mono text-[10px] text-[#756758] dark:text-[#B5A592]">
               <span className="h-1.5 w-1.5 rounded-full bg-[#7BA86A]" />
-              OPEN TO OPPORTUNITIES
+              OPEN TO WORK
             </p>
             <p className="mt-3 font-serif text-lg leading-snug text-[#34271D] dark:text-[#F1E9DC]">
-              Prefer to talk first?
+              Let's connect and collaborate!
             </p>
             <p className="mt-1.5 text-xs leading-6 text-[#817363] dark:text-[#A79A87]">
-              Send me a message and I'll get back to you.
+              I would love to explore how my skills can contribute to your next project or team. Please feel free to reach out!
             </p>
             <a
               href="mailto:sucilubis20041111@gmail.com"
               className="mt-4 inline-flex items-center gap-2 text-xs font-medium text-[#BF5B37] transition-colors hover:text-[#963D22] dark:text-[#E08856] dark:hover:text-[#F0A174]"
             >
-              Say hello
+              Send a message
               <ArrowUpRight />
             </a>
           </div>

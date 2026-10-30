@@ -4,38 +4,38 @@ import { NavLink } from 'react-router-dom';
 const PROFILE = [
   { label: 'Based in', value: 'Medan, Indonesia' },
   { label: 'Education', value: 'Informatics Engineering · ITP' },
-  { label: 'Main focus', value: 'Full-Stack Development' },
-  { label: 'Currently', value: 'Building & learning' },
+  { label: 'Main focus', value: 'Full-Stack Web Development, Data Analytics & IT Solutions' },
+  { label: 'Currently', value: 'Open to Work & Collaborations' },
 ];
 
 const FOCUS_AREAS = [
   {
     number: '01',
-    title: 'Frontend Development',
+    title: 'Full-Stack Development',
     description:
-      'Building responsive, accessible interfaces with React and Tailwind CSS, with attention to layout, usability, and detail.',
-    tags: ['React', 'Tailwind CSS', 'TypeScript'],
+      'Building responsive, user-centric interfaces and robust backend logic to deliver seamless digital products.',
+    tags: ['React', 'Laravel', 'Tailwind CSS', 'MySQL'],
   },
   {
     number: '02',
-    title: 'Backend Development',
+    title: 'Data Analysis & Processing',
     description:
-      'Developing application logic, managing data, and building structured backend systems for practical web applications.',
-    tags: ['Laravel', 'PHP', 'MySQL'],
+      'Extracting insights, managing structured databases, and processing complex datasets to support data-driven decision making.',
+    tags: ['Python', 'Data Analytics', 'SQL', 'Data Modeling'],
   },
   {
     number: '03',
-    title: 'API Integration',
+    title: 'API & System Integration',
     description:
-      'Connecting applications to external services to extend functionality, simplify workflows, and support data exchange.',
-    tags: ['REST API', 'RajaOngkir', 'Integration'],
+      'Connecting applications to external services and building reliable workflows to ensure smooth system interoperability.',
+    tags: ['REST API', 'Webhooks', 'System Integration', 'RajaOngkir'],
   },
   {
     number: '04',
-    title: 'Machine Learning',
+    title: 'IT Solutions & Support',
     description:
-      'Exploring browser-based machine learning for interactive applications that can process inputs in real time.',
-    tags: ['TensorFlow.js', 'Computer Vision'],
+      'Solving technical challenges, optimizing system performance, and providing reliable IT infrastructure support.',
+    tags: ['Troubleshooting', 'System Admin', 'Technical Support'],
   },
 ];
 
@@ -77,8 +77,11 @@ const PROJECTS = [
 ];
 
 const NOW = [
-  'Developing and refining the Toko Khairul Audio e-commerce system.',
-  'Exploring client-side machine learning for interactive web applications.',
+  'Actively seeking new opportunities in Data Analytics, Web Development, and IT roles.',
+  'Refining e-commerce systems and expanding expertise in data processing for better decision-making.',
+  'Designing and implementing RESTful APIs to ensure seamless integration across diverse platforms.',
+  'Applying analytical methodologies to extract actionable insights from structured databases.',
+  'Exploring scalable IT infrastructure solutions to optimize application performance and reliability.',
 ];
 
 const sectionTitle =
@@ -114,7 +117,7 @@ export default function Home() {
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#E8DDCE] bg-[#F8F3EB] px-3 py-1.5 dark:border-[#382E22] dark:bg-[#211B16]">
               <span className="h-1.5 w-1.5 rounded-full bg-[#7BA86A]" />
               <span className="font-mono text-[10px] text-[#756758] dark:text-[#B5A592]">
-                OPEN TO OPPORTUNITIES
+                OPEN TO WORK
               </span>
             </div>
 
@@ -127,17 +130,8 @@ export default function Home() {
               <span className="block">Lubis<span className="text-[#BF5B37] dark:text-[#E08856]">.</span></span>
             </h1>
 
-            <h2 className="mt-5 text-sm font-medium tracking-wide text-[#6E6459] dark:text-[#B5A592] sm:text-base">
-              Informatics Engineering Student
-              <span className="mx-2 text-[#BF5B37] dark:text-[#E08856]">/</span>
-              Aspiring Software Developer
-            </h2>
-
             <p className="mt-5 max-w-[55ch] text-sm leading-7 text-[#756B60] dark:text-[#A79A87] sm:text-[15px]">
-              I build web applications that bring together thoughtful
-              interfaces, practical functionality, and structured data.
-              I'm interested in full-stack development, API integration,
-              and exploring how technology can solve real-world problems.
+              I craft modern web applications that blend intuitive interfaces, robust functionality, and scalable data systems. Passionate about Full-Stack development and seamless API integration, I am always eager to collaborate and turn complex ideas into impactful digital solutions.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-3">
@@ -162,7 +156,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 border-t border-[#EEE6D8] pt-5 font-mono text-[10px] text-[#9C9184] dark:border-[#2C241B] dark:text-[#8D7F6E]">
               <span>WEB DEVELOPMENT</span>
               <span className="text-[#BF5B37] dark:text-[#E08856]">✳</span>
-              <span>API INTEGRATION</span>
+              <span>FULL STACK DEVELOPER</span>
               <span className="text-[#BF5B37] dark:text-[#E08856]">✳</span>
               <span>DATA ANALYST</span>
             </div>
@@ -181,38 +175,14 @@ export default function Home() {
                 <span className="relative select-none font-serif text-[112px] leading-none tracking-[-0.12em] text-[#8F5439] dark:text-[#E3A17B]">
                   SR
                 </span>
-                <span className="absolute bottom-4 right-4 font-mono text-[9px] tracking-widest text-[#927E68] dark:text-[#B5A18A]">
-                  INFORMATICS
-                </span>
               </div>
 
               <p className="font-serif text-xl text-[#33281F] dark:text-[#E8DED0]">
-                Building with purpose.
+                Let's Build Together.
               </p>
               <p className="mt-2 max-w-sm text-xs leading-6 text-[#857665] dark:text-[#A79A87]">
-                From the first interface to the logic behind it, I enjoy
-                turning ideas into useful digital experiences.
+                Passionate about software development, data analytics, and technology solutions, I combine technical expertise with clean logic to solve real-world problems. I am open to various tech roles and excited to explore how we can work together.
               </p>
-
-              <div className="mt-6 grid grid-cols-2 gap-3 border-t border-[#DFCFBA] pt-5 dark:border-[#493829]">
-                <div>
-                  <p className="font-mono text-[9px] uppercase tracking-widest text-[#A18E78]">
-                    Location
-                  </p>
-                  <p className="mt-1.5 text-xs text-[#514235] dark:text-[#D0BFA9]">
-                    Medan, Indonesia
-                  </p>
-                </div>
-
-                <div>
-                  <p className="font-mono text-[9px] uppercase tracking-widest text-[#A18E78]">
-                    Main interest
-                  </p>
-                  <p className="mt-1.5 text-xs text-[#514235] dark:text-[#D0BFA9]">
-                    Full-Stack Web
-                  </p>
-                </div>
-              </div>
             </div>
 
           </div>
@@ -260,8 +230,7 @@ export default function Home() {
             <h2 className={sectionTitle}>Areas of focus.</h2>
           </div>
           <p className="max-w-xs text-xs leading-6 text-[#8B7E70] dark:text-[#9E9080]">
-            A mix of application development, system integration, and
-            hands-on technical exploration.
+            A blend of full-stack web development, data analysis, and scalable IT solutions.
           </p>
         </div>
 
@@ -274,9 +243,6 @@ export default function Home() {
               <div className="mb-6 flex items-center justify-between">
                 <span className="font-mono text-[11px] text-[#BF5B37] dark:text-[#E08856]">
                   {area.number}
-                </span>
-                <span className="transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-[#BF5B37] dark:group-hover:text-[#E08856]">
-                  <ArrowUpRight />
                 </span>
               </div>
 
@@ -367,14 +333,13 @@ export default function Home() {
         <div className="grid gap-8 md:grid-cols-[0.8fr_1.2fr] md:items-start">
           <div>
             <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.2em] text-[#BF5B37] dark:text-[#E08856]">
-              Right now / 2026
+              Right Now
             </p>
             <h2 className="max-w-xs font-serif text-3xl leading-tight text-[#34271D] dark:text-[#F1E9DC]">
-              Learning by building.
+              Ready for the next challenge.
             </h2>
             <p className="mt-3 max-w-sm text-xs leading-6 text-[#817363] dark:text-[#A79A87]">
-              I believe the best way to grow as a developer is to build
-              things, understand the problems, and keep improving the result.
+              I believe in continuous growth through practical application. By combining my skills in full-stack development, data analysis, and IT solutions, I am ready to help your team tackle complex technical problems and drive meaningful results.
             </p>
           </div>
 

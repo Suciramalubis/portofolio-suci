@@ -13,7 +13,7 @@ export default function Navbar({ isDark, toggleTheme }) {
           <NavLink to="/" end className={({isActive}) => `${linkBase} ${isActive ? activeStyle : inactiveStyle}`}>Home</NavLink>
           <NavLink to="/projects" className={({isActive}) => `${linkBase} ${isActive ? activeStyle : inactiveStyle}`}>Projects</NavLink>
           <NavLink to="/experience" className={({isActive}) => `${linkBase} ${isActive ? activeStyle : inactiveStyle}`}>Experience</NavLink>
-          <NavLink to="/certificate" className={({isActive}) => `${linkBase} ${isActive ? activeStyle : inactiveStyle}`}>Certificates</NavLink>
+          {/* <NavLink to="/certificate" className={({isActive}) => `${linkBase} ${isActive ? activeStyle : inactiveStyle}`}>Certificates</NavLink> */}
         </div>
 
         {/* Divider */}

@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-2.5">
             {/* GitHub */}
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/Suciramalubis"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Suci Ramadhani Lubis"

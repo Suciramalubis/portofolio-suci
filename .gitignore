@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Production build / output
+dist/
+build/
+
+# Environment variables (keamanan)
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
